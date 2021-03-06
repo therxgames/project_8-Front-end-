@@ -1,0 +1,1721 @@
+@media screen and  (min-width: 769px) and (max-width: 1200px){
+
+	#open-sub{
+		display: flex;
+	}
+
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.main-active{
+		position: relative;
+	}
+
+	.main-active::before{
+		content: '';
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0,0,0,0.5);
+	    transition: opacity 0.6s;
+	    z-index: 666;
+	}
+
+	/* BREADCUMPS */
+
+	.beadcumps{
+		margin-bottom: -1px;
+	}
+
+	/* HEADER */
+
+	.header-bottom{
+		display: none;
+	}
+	.header-stars{
+		display: none;
+	}
+
+	/* FOOTER */
+
+	.footer-nav-item{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	/* KAZINO */
+
+	.swiper-slide img{
+		height: 220px;
+	}
+
+	.kazino > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.kazino-description-title{
+		padding-top: 50px;
+	}
+
+	.kazino-description-text{
+		margin-top: 23px;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.kazino-slots-title{
+		margin-top: 34px;
+	}
+
+	.kazino-slots-list{
+		margin-top: 22px;
+		padding-left: 16px;
+		padding-right: 16px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.kazino-slots-item{
+		padding: 16px;
+		max-width: 224px;
+	}
+
+	.kazino-slots-all{
+		margin-top: 23px;
+	}
+
+	.kazino-info-title{
+		margin-top: 50px;
+	}
+
+	.kazino-info-descr{
+		margin-top: 24px;
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.kazino-info-descr-item{
+		font-size: 28px;
+	}
+
+	.kazino-info-subtitle{
+		margin-top: 16px;
+	}
+
+	.kazino-info-item-img{
+		margin: 24px 0;
+	}
+
+	.kazino-info-item-img img{
+		width: 100%;
+	}
+
+	.kazino-articles{
+		margin-top: 48px;
+	}
+
+	.kazino-articles-list{
+		margin-top: 0;
+	}
+
+	.kazino-articles-item{
+		max-width: 324px;
+		margin-top: 29px;
+		text-align: center;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	.kazino-articles-item-img{
+		width: 100%;
+	}
+
+	.kazino-articles-descr{
+		padding-top: 20px;
+		padding-left: 14px;
+	}
+
+	.kazino-articles-descr-title{
+		text-align: left;
+	}
+
+	.kazino-articles-descr-text{
+		text-align: left;
+	}
+
+	.kazino-articles-list{
+		display: flex;
+		justify-content: center;
+	}
+
+	.kazino-articles-all{
+		margin-top: 40px;
+		padding-bottom: 67px;
+	}
+
+	/* BET */
+
+	.bet > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.bet-wrapper{
+		padding-left: 32px;
+		padding-right: 33px;
+	}
+
+	.bet-description{
+		padding-top: 38px;
+	}
+
+	.bet-description-text{
+		margin-top: 26px;
+	}
+
+	.bet-banner{
+		margin-top: 25px;
+	}
+
+	.bet-banner-btn{
+		padding: 11px 47px;
+	}
+
+	.bet-info{
+		margin-top: 25px;
+	}
+
+	.bet-info-subtitle{
+		margin-top: 28px;
+	}
+
+	.bet-info-item-item-img img{
+		width: 100%;
+	}
+
+	.bet-info-item{
+		margin-top: 22px;
+	}
+
+	.bet-main{
+		margin-top: 37px;
+		padding-bottom: 64px;
+	}
+
+	/* ARTICLES */
+
+	.articles > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.articles-wrapper{
+		padding-left: 52px;
+		padding-right: 54px;
+	}
+
+	.articles-list{
+		display: flex;
+		justify-content: center;
+	}
+
+	.articles-description{
+		padding-top: 33px;
+	}
+
+	.articles-description-text{
+		margin: 0 auto;
+		margin-top: 21px;
+	}
+
+	.articles-pag{
+		justify-content: center;
+		margin-top: 43px;
+		padding-bottom: 77px;
+	}
+
+	/* ARTICLE */
+
+	.article > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.article-wrapper{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.article-title{
+		padding-top: 35px;
+	}
+
+	.article-title-text{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.article-contents-title{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.article-contents-list{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.article-date{
+		margin-top: 1px;
+	}
+
+	.article-main{
+		margin-top: 28px;
+	}
+
+	.article-main-title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.article-content-text{
+		font-size: 16px;
+		line-height: 24px;
+		margin-top: 17px;
+	}
+
+	.article-back{
+		margin-top: 52px;
+		padding-bottom: 77px;
+	}
+
+	/* CONTACTS */
+
+	.contacts-content{
+		padding-top: 176px;
+		padding-bottom: 328px;
+		background: url('../img/contacts-mobile.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.contacts-questions{
+		margin-top: 31px;
+	}
+	.contacts__content-email{
+		margin-top: 9px;
+	}
+
+	/* POLICY */
+
+	.policy > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.policy-wrapper{
+		padding-left: 36px;
+		padding-right: 32px;
+	}
+
+	.policy-content{
+		padding-top: 42px;
+	}
+
+	.policy-text{
+		margin-top: 19px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.policy-subtitle{
+		margin-top: 17px;
+	}
+
+	.back-policy{
+		margin-top: 41px;
+		padding-bottom: 94px;
+	}
+
+	/* APP */
+
+	.app > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.app-wrapper{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.app-content{
+		padding-top: 35px;
+	}
+
+	.app-top{
+		margin-top: 22px;
+		padding-left: 85px;
+	}
+
+	.app-top-title{
+		color: #FFF;
+	}
+
+	.app-top-text{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.app-top-img img{
+		height: 163px;
+		width: 163px;
+	}
+
+	.app-middle-title{
+		color: #24BA9D;
+		font-size: 28px;
+		line-height: 34px;
+		margin-top: 30px;
+	}
+
+	.app-middle{
+		margin-top: 28px;
+	}
+
+	.app-middle-text{
+		border: none;
+		font-size: 16px;
+		line-height: 24px;
+		padding-left: 0;
+		padding-right: 11px;
+	}
+
+	.app-middle-img img{
+		width: 254px;
+		height: 146px;
+	}
+
+	.app-bottom{
+		margin-top: 63px;
+		padding-bottom: 80px;
+	}
+
+	.app-bottom-text{
+		margin-top: 29px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.app-download{
+		margin-top: 42px;
+	}
+
+	.app-bottom-phone img{
+		height: 400px;
+	}
+
+	/* PROMO */
+
+	.promo{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.promo > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.promo-wrapper{
+		padding-left: 34px;
+		padding-right: 30px;
+	}
+
+	.promo-content{
+		padding-top: 16px;
+	}
+
+	.promo-description-text{
+		margin-top: 31px;
+	}
+
+	.promo-list{
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin-left: 30px;
+		margin-right: 34px;
+		padding-top: 42px;
+	}
+
+	.promo-item{
+		margin-top: 14px;
+	}
+
+	.promo-img img{
+		width: 243px;
+		height: 210px;
+	}
+
+	.promo-bonus{
+		margin-top: 8px;
+	}
+	.promo-info{
+		padding-top: 18px;
+		padding-left: 25px;
+	}
+
+	.promo-date{
+		padding-top: 56px;
+		padding-right: 25px;
+	}
+
+	.promo-bottom-title{
+		margin-top: 78px;
+	}
+
+	.promo-bottom{
+		padding-bottom: 131px;
+	}
+
+	.promo-bottom{
+		padding-top: 64px;
+	}
+	.promo-bottom-text{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.promo-bottom-img{
+		margin-right: 21px;
+	}
+	.promo-bottom-img img{
+		width: 344px;
+		height: 233px;
+	}
+
+	/* MIRROR */
+
+	.mirror-cards-desc{
+		display: none;
+	}
+
+	.mirror-cards-tablet{
+		width: 100%;
+		display: block;
+	}
+
+	.mirror-cards-mobile{
+		display: none;
+	}
+
+	.mirror{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.mirror > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.mirror-wrapper{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.mirror-top{
+		width: 40%;
+		margin-top: 22px;
+	}
+
+	.mirror-content{
+		padding-top: 29px;
+	}
+
+	.mirror-top-text{
+		margin-top: 27px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.mirror-button{
+		margin-top: 21px;
+	}
+
+	.cards-bottom-text{
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 400;
+	}
+
+	/* BONUS */
+
+	.bonus{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.bonus > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.bonus-wrapper{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.bonus-content{
+		background: #000;
+		padding-top: 32px;
+	}
+
+	.bonus-top{
+		margin-top: 22px;
+		padding-bottom: 71px;
+	}
+
+	.bonus-top-btn{
+		padding: 11px 40px;
+	}
+
+	.bonus-top-text{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.bonus-top-img img{
+		width: 340px;
+		height: 232px;
+	}
+
+	.bonus-bottom{
+		background: #232323;
+		margin-left: -32px;
+		margin-right: -32px;
+		padding-left: 37px;
+		padding-right: 31px;
+		padding-top: 33px;
+	}
+
+	.bonus-bottom-title{
+		display: none;
+	}
+
+	.bonus-bottom-text{
+		margin-top: 0;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.bonus-bottom-content{
+		margin-top: 41px;
+	}
+
+	.bonus-bottom-title-mobile{
+		display: block;
+		text-align: center;
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 33px;
+		color: #24BA9D;
+	}
+
+	.bonus-bottom-img{
+		margin-top: 41px;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.bonus-bottom-img img{
+		width: 346px;
+		height: 349px;
+	}
+
+	.bonus-back{
+		background: #232323;
+		margin-left: -32px;
+		margin-right: -32px;
+		margin-top: -1px;
+		padding-top: 71px;
+		padding-bottom: 48px;
+	}
+
+	/* PROMOCODES BLOCK */
+
+	.promocodes-block{
+		padding: 26px 33px;
+	}
+
+	.promocodes-block-title{
+		font-size: 36px;
+		line-height: 50px;
+		text-align: center;
+	}
+
+	.promocodes-block-left{
+		padding-right: 20px;
+	}
+
+	.promocodes-block-params,.promocodes-block-bonus{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.promocodes-block-date{
+		margin-top: 35px;
+	}
+
+}
+
+@media (max-width: 768px){
+
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.button{
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	/* SLIDER */
+
+	.swiper-slide img{
+		height: 100%;
+	}
+
+	.swiper-pagination{
+		bottom: 15%!important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	    margin: 0 12px!important;
+	}
+
+	/* BREADCUMPS */
+
+	.breadcumps{
+		margin-top: -3%;
+	}
+
+	.breadcump-item {
+		padding: 5px 34px;
+	}
+
+	.breadcump-item a{
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.breadcump-item:after{
+		right: -40px;
+		top: -0.4px;
+		border: 19px solid transparent;
+		border-left: 22px solid #000;
+	}
+
+	.breadcump-item-sub:after{
+		border: 19px solid transparent;
+		border-left: 22px solid #24BA9D;
+	}
+
+
+	/* MOBILE */
+
+	#open-sub{
+		display: flex;
+	}
+
+	.mobile__nav{
+		margin-top: -5px;
+	}
+
+	.mobile__nav .header-top-right{
+		display: flex!important;
+	}
+
+	.mobile__nav .container{
+		width: 100%;
+	}
+
+	.mobile__nav .container{
+		height: 390px;
+	}
+
+	.mobile__nav{
+		width: 100%;
+	}
+
+	/* HEADER */
+
+	.header-top .header-top-right{
+		display: none;
+	}
+	.header-top{
+		padding: 21px 0;
+	}
+
+	.header-bottom{
+		display: none;
+	}
+
+	.header-stars{
+		display: none;
+	}
+
+	.header-top-right-log{
+		padding: 11px 12px;
+	}
+
+	.header-top-right-reg{
+		padding: 11px 12px;
+	}
+
+	/* FOOTER */
+
+	.footer{
+		padding-top: 30px;
+		padding-bottom: 35px;
+	}
+
+	.footer .container .row{
+		flex-direction: column;
+		justify-content: center!important;
+		text-align: center;
+	}
+
+	.footer-list{
+	    width: 220px;
+	    margin: 0 auto;
+		flex-direction: column;
+		padding-top: 15px;
+	}
+
+	.footer-nav-item{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		padding-top: 15px;
+	}
+
+	/* KAZINO */
+
+	.kazino{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.kazino > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.kazino-description-title{
+		padding-top: 26px;
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.kazino-description-text{
+		margin-top: 10px;
+		margin-bottom: 0;
+		padding: 0 16px;
+	}
+
+	.kazino-description-text-item{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.kazino-slots-title{
+		margin: 8px 0;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.kazino-slots-item{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		max-width: 136px;
+	}
+
+	.kazino-slots-item-title{
+		width: 100%;
+	}
+
+	.kazino-slots-item-img{
+		height: 110px;
+	}
+
+	.kazino-slots-item-title{
+		margin-top: 5px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.kazino-slots-list{
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.kazino-slots-all{
+		margin-top: 25px;
+	}
+
+	.kazino-info-title{
+		margin-top: 40px;
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	.kazino-info-subtitle{
+		margin-top: 0;
+		font-weight: 400;
+	    font-size: 18px;
+	    line-height: 27px;
+	}
+
+	.kazino-info-descr{
+		padding-left: 16px;
+		padding-right: 16px;
+		margin-top: 5px;
+	}
+
+	.kazino-info-item-img{
+		display: none;
+	}
+
+	.kazino-articles{
+		margin-top: 26px;
+	}
+
+	.kazino-articles-title{
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.kazino-articles-item{
+		margin: 0 auto;
+		margin-top: 23px;
+		max-width: 288px;
+	}
+
+	.kazino-articles-item-img{
+		width: 100%;
+	}
+
+	.kazino-articles-list{
+		padding-left: 16px;
+		padding-right: 16px;
+		margin-top: 0;
+	}
+
+	.kazino-articles-descr-title{
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	.kazino-articles-descr{
+		padding-top: 13px;
+		padding-right: 5px;
+		padding-left: 23px;
+	}
+
+	.kazino-articles-all{
+		margin-top: 41px;
+		padding-bottom: 59px;
+	}
+
+	/* BET */
+
+	.bet{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.bet > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.bet-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.bet-description{
+		padding-top: 26px;
+	}
+
+	.bet-description-title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.bet-description-text{
+		margin-top: 17px;
+	}
+
+	.bet-description-text-item{
+		font-size: 16px;
+		line-height: 24px;
+		margin-top: 10px;
+	}
+
+	.bet-description-text-item:first-child{
+		margin-top: 0;
+	}
+
+	.bet-banner{
+		margin-top: 34px;
+		height: 200px;
+		background-size: cover;
+		max-width: 85%;
+	}
+
+	.bet-banner-btn{
+		padding: 11px 32px;
+		margin-top: 119px;
+	}
+
+	.bet-info{
+		margin-top: 33px;
+	}
+
+	.bet-info-title{
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	.bet-info-subtitle{
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: 400;
+	}
+
+	.bet-info-descr{
+		margin-top: 15px;
+	}
+
+	.bet-info-item{
+		display: flex;
+		margin-top: 15px;
+	}
+
+	.bet-info-item:first-child{
+		margin-top: 0;
+	}
+
+	.bet-info-item-text{
+		order: 1;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.bet-info-item-img {
+		order: 2;
+		margin-top: 10px;
+	}
+
+	.bet-main{
+		margin-top: 40px;
+		padding-bottom: 52px;
+	}
+
+	/* ARTICLES */
+
+	.articles{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.articles > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.articles-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.articles-description{
+		padding-top: 33px;
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.articles-description-text{
+		margin-top: 14px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+	}
+
+	.articles-pag{
+		justify-content: center;
+		margin-top: 19px;
+		padding-bottom: 54px;
+	}
+
+	.articles-pag-item:nth-child(4){
+		display: none;
+	}
+
+	/* ARTICLE */
+
+	.article{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.article > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.article-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.article-title{
+		padding-top: 36px;
+		font-size24px;
+		line-height: 26px;
+	}
+
+	.article-title-text{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.article-rating{
+		justify-content: flex-start;
+		margin-top: 3px;
+	}
+
+	.article-date{
+		text-align: left;
+		margin-top: 4px;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.article-contents{
+		margin-top: 21px;
+	}
+
+	.article-contents-title{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.article-contents-list{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.article-main{
+		margin-top: 28px;
+	}
+
+	.article-content-text{
+		margin-top: 21px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.article-main-title {
+		padding-left: 0;
+		padding-right: 0;
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.article-back{
+		margin-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	/* CONTACTS */
+
+	.contacts-content{
+		padding-top: 85px;
+		padding-bottom: 127px;
+	}
+	.contacts-title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+	.contacts-questions{
+		margin-top: 51px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.contacts-email{
+		margin-top: 16px;
+		font-size: 22px;
+		line-height: 33px;
+	}
+	/* POLICY */
+
+	.policy{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.policy > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.policy-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.policy-content{
+		padding-top: 30px;
+	}
+
+	.policy-text{
+		font-weight: 400;
+		margin-top: 21px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.policy-subtitle{
+		margin-top: 14px;
+		font-size: 22px;
+		line-height: 23px;
+	}
+	.policy-title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.back-policy{
+		margin-top: 41px;
+		padding-bottom: 86px;
+	}
+
+	/* APP */
+
+	.app{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.app > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.app-content{
+		display: none;
+	}
+
+
+	.app-content-mobile{
+		display: block;
+	}
+
+	.app-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.app-top{
+		margin-top: 27px;
+	}
+
+	.app-top-img{
+		padding-right: 22px;
+	}
+
+	.app-top-img img{
+		width: 92px;
+		height: 90px;
+	}
+
+	.app-title{
+		font-size: 24px;
+		line-height: 26px;
+		text-align: left;
+	}
+
+	.app-top-title{
+		font-size: 18px;
+		line-height: 27px;
+		margin-top: 12px;
+	}
+
+	.app-top-text{
+		padding-top: 20px;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 400;
+	}
+
+	.app-middle-title{
+		margin-top: 14px;
+		font-size: 18px;
+		line-height: 27px;
+		color: #24BA9D;
+	}
+
+	.app-middle{
+		flex-direction: column;
+		margin-top: 20px;
+	}
+
+	.app-middle-text{
+		border-left: none;
+		padding-left: 0;
+		padding-right: 0;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 400;
+	}
+
+	.app-middle-img {
+		margin-top: 15px;
+	}
+
+	.app-bottom-title{
+		margin-top: 29px;
+	}
+
+	.app-middle-img img{
+		width: 288px;
+		height: 153px;
+	}
+
+	.app-bottom{
+		flex-direction: column;
+	}
+
+	.app-bottom{
+		margin-top: 15px;
+	}
+
+	.app-bottom-content{
+		padding-left: 0;
+	}
+
+	.app-bottom-text{
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 400;
+		margin-top: 0;
+	}
+
+	.app-bottom-phone{
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+
+	.app-download{
+		margin-top: 30px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.app-bottom{
+		padding-bottom: 58px;
+	}
+
+	/* PROMO */
+
+	.promo{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.promo > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.promo-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.promo-title{
+		margin-top: 8px;
+		font-size: 18px;
+		line-height: 27px
+	}
+
+	.promo-list{
+		padding-top: 19px;
+		margin-left: 14px;
+		margin-right: 18px;
+	}
+
+	.promo-content{
+		padding-top: 10px;
+	}
+
+	.promo-description-text{
+		margin-top: 11px;
+	}
+
+	.promo-description-title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.promo-description-text-item{
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 400;
+	}
+
+	.promo-item{
+		flex-direction: column;
+		width: 290px;
+		margin: 0 auto;
+	}
+
+	.promo-item:first-child{
+		padding-top: 0;
+	}
+
+	.promo-img img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.promo-info{
+		padding-top: 12px;
+		text-align: center;
+		padding-right: 15px;
+	}
+
+	.promo-per{
+		font-size: 23px;
+		line-height: 26px;
+	}
+
+	.promo-bonus{
+		font-size: 18px;
+		line-height: 27px;
+		margin-top: 5px;
+	}
+	.promo-date{
+		flex-direction: column;
+		padding-top: 15px;
+		padding-right: 0;
+	}
+
+	.promo-date-text{
+		margin: 0 auto;
+	}
+
+	.promo-button{
+		margin: 0 auto;
+		padding: 11px 30px;font-size: 24px;
+		line-height: 28px;
+		margin-top: 50px;
+		margin-bottom: 16px;
+	}
+
+	.promo-item{
+		padding-top: 26px;
+	}
+
+	.promo-bottom-title{
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: 400;
+		margin-top: 36px;
+	}
+	.promo-bottom{
+		margin-left: 15px;
+		margin-right: 17px;
+		padding-bottom: 75px;
+		flex-direction: column-reverse;
+		padding-top: 5px;
+	}
+
+	.promo-bottom-text{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.promo-bottom-img{
+		margin: 0 auto;
+		padding-top: 26px;
+	}
+	.promo-bottom-img img{
+		width: 100%;
+	}
+
+	/* MIRROR */
+
+	.mirror{
+		background-image: none;
+		background-color: #232323;
+	}
+
+	.mirror > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.mirror-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.mirror-content{
+		padding-top: 32px;
+	}
+
+	.mirror-title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.mirror-top{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.mirror-top-title{
+		text-align: center;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.mirror-top-text{
+		font-size: 16px;
+		line-height: 24px;
+		margin-top: 10px;
+	}
+
+	.mirror-cards-mobile{
+		display: block;
+		width: 100%;
+	}
+
+	.mirror-cards-desc{
+		display: none;
+	}
+
+	.mirror-cards{
+		margin-top: -10%;
+	}
+
+	.mirror-top .mirror-button{
+		display: none;
+	}
+
+	.mobile-mirror-btn{
+		display: block;
+	}
+
+	.cards-bottom{
+		margin-top: 0;
+		width: 100%;
+		padding-bottom: 29px;
+	}
+
+	.cards-bottom-text{
+		font-size: 16px;
+		line-height: 24px;
+		margin-top: -10%;
+	}
+
+	.mobile-mirror-btn{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 62px;
+	}
+
+	.mirror-button{
+		margin-top: 0;
+
+	}
+
+	/* BONUS */
+
+	.bonus{
+		background-image: none;
+		background-color: #000;
+	}
+
+	.bonus > .container{
+		max-width: 100%!important;
+		padding: 0!important;
+	}
+
+	.bonus-wrapper{
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.bonus-content{
+		padding-top: 24px;
+		background-color: #000;
+	}
+
+	.bonus-title{
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.bonus-top{
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 10px;
+		padding-bottom: 27px;
+	}
+
+	.bonus-top-content{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.bonus-top-title{
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		text-align: center;
+	}
+
+	.bonus-top-text{
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+	}
+
+	.bonus-btn{
+		display: none;
+	}
+
+	.bonus-top-img{
+		text-align: center;
+		margin-top: 15px;
+	}
+
+	.bonus-top-img img{
+		width: 279px;
+		height: 189px;
+	}
+
+	.bonus-top-mobile-btn{
+		display: block;
+		text-align: center;
+	}
+
+	.bonus-top-btn{
+		padding: 11px 33px;
+	}
+
+	.bonus-top-btn{
+		margin-top: 26px;
+	}
+
+	.bonus-bottom {
+		background: #232323;
+		margin-right: -16px;
+		margin-left: -16px;
+		padding-top: 28px;
+	}
+
+	.bonus-bottom-title{
+		font-size: 18px;
+		line-height: 27px;
+		text-align: center;
+	}
+
+	.bonus-bottom-text{
+		margin-top: 20px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.bonus-bottom-img{
+		margin-top: 17px;
+		text-align: center;
+	}
+
+	.bonus-bottom-img img{
+		width: 288px;
+		height: 157px;
+	}
+
+	.bonus-back{
+		background: #232323;
+		margin-right: -16px;
+		margin-left: -16px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	/* PROMOCODES BLOCK */
+
+	.promocodes-block{
+		padding: 14px 16px 15px 22px;
+		width: 250px;
+	}
+
+	.promocodes-block-left{
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 25px;
+		border-bottom: 1px solid #E03D22;
+		border-right: none;
+	}
+
+	.promocodes-block-title{
+		font-size: 24px;
+		line-height: 50px;
+	}
+
+	.promocodes-block-right{
+		margin-top: 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.promocodes-block-btn{
+		margin-top: 16px;
+	}
+
+	.promocodes-block-params,.promocodes-block-bonus,.promocodes-block-date{
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+	}
+
+	.promocodes-block-date{
+		margin-top: 20px;
+	}
+}
